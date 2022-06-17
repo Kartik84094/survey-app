@@ -4,27 +4,22 @@
         "answerOptions": [
             {
                 "answerText": "1",
-                "isCorrect": false,
                 "value": "1"
             },
             {
                 "answerText": "2",
-                "isCorrect": false,
                 "value": "2"
             },
             {
                 "answerText": "3",
-                "isCorrect": false,
                 "value": "3"
             },
             {
                 "answerText": "4",
-                "isCorrect": false,
                 "value": "4"
             },
             {
                 "answerText": "5",
-                "isCorrect": true,
                 "value": "5"
             }
         ]
@@ -34,27 +29,22 @@
         "answerOptions": [
             {
                 "answerText": "1",
-                "isCorrect": false,
                 "value": "1"
             },
             {
                 "answerText": "2",
-                "isCorrect": false,
                 "value": "2"
             },
             {
                 "answerText": "3",
-                "isCorrect": false,
                 "value": "3"
             },
             {
                 "answerText": "4",
-                "isCorrect": false,
                 "value": "4"
             },
             {
                 "answerText": "5",
-                "isCorrect": true,
                 "value": "5"
             }
         ]
@@ -64,27 +54,22 @@
         "answerOptions": [
             {
                 "answerText": "1",
-                "isCorrect": false,
                 "value": "1"
             },
             {
                 "answerText": "2",
-                "isCorrect": false,
                 "value": "2"
             },
             {
                 "answerText": "3",
-                "isCorrect": false,
                 "value": "3"
             },
             {
                 "answerText": "4",
-                "isCorrect": false,
                 "value": "4"
             },
             {
                 "answerText": "5",
-                "isCorrect": true,
                 "value": "5"
             }
         ]
@@ -94,59 +79,28 @@
         "answerOptions": [
             {
                 "answerText": "1",
-                "isCorrect": false,
                 "value": "1"
             },
             {
                 "answerText": "2",
-                "isCorrect": false,
                 "value": "2"
             },
             {
                 "answerText": "3",
-                "isCorrect": false,
                 "value": "3"
             },
             {
                 "answerText": "4",
-                "isCorrect": false,
                 "value": "4"
             },
             {
                 "answerText": "5",
-                "isCorrect": true,
                 "value": "5"
             }
         ]
     },
     {
         "questionText": "What could we do to improve our service?",
-        "answerOptions": [
-            {
-                "answerText": "1",
-                "isCorrect": false,
-                "value": "1"
-            },
-            {
-                "answerText": "2",
-                "isCorrect": false,
-                "value": "2"
-            },
-            {
-                "answerText": "3",
-                "isCorrect": false,
-                "value": "3"
-            },
-            {
-                "answerText": "4",
-                "isCorrect": false,
-                "value": "4"
-            },
-            {
-                "answerText": "5",
-                "isCorrect": true,
-                "value": "5"
-            }
-        ]
+        "answerOptions": []
     }
 ]

@@ -72,7 +72,7 @@ export default function Survey() {
 	}
 
 	const showConfirmationPage = () => {
-		
+
 		const confirmBox = window.confirm(
 			"Do you really want to submit this survey?"
 		)
@@ -121,7 +121,7 @@ export default function Survey() {
 							<div className='question-text'>{currentQuestion + 1}. {questions[currentQuestion].questionText}</div>
 							<div className='answer-section'>
 								{(() => {
-									if (currentQuestion === 4) {
+									if (!questions[currentQuestion].answerOptions.length) {
 										return (
 											<textarea value={comment} onChange={(e) => setComment(e.target.value)} rows="4" cols="30"></textarea>
 										)
@@ -137,7 +137,7 @@ export default function Survey() {
 							<div className='prev-next-section'>
 								<button id='prev' onClick={() => handlePreviousOptionClick()}>Prev</button>
 								{(() => {
-									if (currentQuestion === 4) {
+									if (currentQuestion === questions.length - 1) {
 										return (
 											<button id='submit' onClick={() => handleSubmitButtonClick()}>Submit</button>
 										)
