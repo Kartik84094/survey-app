@@ -1,0 +1,152 @@
+[
+    {
+        "questionText": "How satisfied are you with our products?",
+        "answerOptions": [
+            {
+                "answerText": "1",
+                "isCorrect": false,
+                "value": "1"
+            },
+            {
+                "answerText": "2",
+                "isCorrect": false,
+                "value": "2"
+            },
+            {
+                "answerText": "3",
+                "isCorrect": false,
+                "value": "3"
+            },
+            {
+                "answerText": "4",
+                "isCorrect": false,
+                "value": "4"
+            },
+            {
+                "answerText": "5",
+                "isCorrect": true,
+                "value": "5"
+            }
+        ]
+    },
+    {
+        "questionText": "How fair are the prices compared to similar retailers?",
+        "answerOptions": [
+            {
+                "answerText": "1",
+                "isCorrect": false,
+                "value": "1"
+            },
+            {
+                "answerText": "2",
+                "isCorrect": false,
+                "value": "2"
+            },
+            {
+                "answerText": "3",
+                "isCorrect": false,
+                "value": "3"
+            },
+            {
+                "answerText": "4",
+                "isCorrect": false,
+                "value": "4"
+            },
+            {
+                "answerText": "5",
+                "isCorrect": true,
+                "value": "5"
+            }
+        ]
+    },
+    {
+        "questionText": "How satisfied are you with the value for money of your purchase?",
+        "answerOptions": [
+            {
+                "answerText": "1",
+                "isCorrect": false,
+                "value": "1"
+            },
+            {
+                "answerText": "2",
+                "isCorrect": false,
+                "value": "2"
+            },
+            {
+                "answerText": "3",
+                "isCorrect": false,
+                "value": "3"
+            },
+            {
+                "answerText": "4",
+                "isCorrect": false,
+                "value": "4"
+            },
+            {
+                "answerText": "5",
+                "isCorrect": true,
+                "value": "5"
+            }
+        ]
+    },
+    {
+        "questionText": "On a scale of 1-10 how would you recommend us to your friends and family?",
+        "answerOptions": [
+            {
+                "answerText": "1",
+                "isCorrect": false,
+                "value": "1"
+            },
+            {
+                "answerText": "2",
+                "isCorrect": false,
+                "value": "2"
+            },
+            {
+                "answerText": "3",
+                "isCorrect": false,
+                "value": "3"
+            },
+            {
+                "answerText": "4",
+                "isCorrect": false,
+                "value": "4"
+            },
+            {
+                "answerText": "5",
+                "isCorrect": true,
+                "value": "5"
+            }
+        ]
+    },
+    {
+        "questionText": "What could we do to improve our service?",
+        "answerOptions": [
+            {
+                "answerText": "1",
+                "isCorrect": false,
+                "value": "1"
+            },
+            {
+                "answerText": "2",
+                "isCorrect": false,
+                "value": "2"
+            },
+            {
+                "answerText": "3",
+                "isCorrect": false,
+                "value": "3"
+            },
+            {
+                "answerText": "4",
+                "isCorrect": false,
+                "value": "4"
+            },
+            {
+                "answerText": "5",
+                "isCorrect": true,
+                "value": "5"
+            }
+        ]
+    }
+]
