@@ -11,13 +11,13 @@ export default function Survey() {
 	const [surveyDone, setSurveyDone] = useState(false);
 	const [comment, setComment] = useState("");
 	const [surveyResponseArray, setSurveyResponseArray] = useState([]);
-	const addSurveyResponse = (question, value) => {
-		setSurveyResponseArray([...surveyResponseArray, { question, value }]);
+	const addSurveyResponse = (questionNumber, question, value) => {
+		setSurveyResponseArray([...surveyResponseArray, { questionNumber, question, value }]);
 	};
 
 	const handleSubmitButtonClick = () => {
 		setComment(comment)
-		surveyResponseArray.push({ question: questions[currentQuestion].questionText, value: comment })
+		surveyResponseArray.push({ questionNumber: questions[currentQuestion].questionNumber, question: questions[currentQuestion].questionText, value: comment })
 
 		const nextQuestion = currentQuestion + 1;
 		if (nextQuestion < questions.length) {
@@ -28,7 +28,7 @@ export default function Survey() {
 	};
 	const handleNextButtonClick = () => {
 
-		addSurveyResponse(questions[currentQuestion].questionText, '')
+		addSurveyResponse(questions[currentQuestion].questionNumber, questions[currentQuestion].questionText, '')
 		const nextQuestion = currentQuestion + 1;
 		if (nextQuestion < questions.length) {
 			setCurrentQuestion(nextQuestion);
@@ -38,7 +38,7 @@ export default function Survey() {
 	};
 	const handleAnswerOptionClick = (value) => {
 
-		addSurveyResponse(questions[currentQuestion].questionText, value)
+		addSurveyResponse(questions[currentQuestion].questionNumber, questions[currentQuestion].questionText, value)
 		const nextQuestion = currentQuestion + 1;
 		if (nextQuestion < questions.length) {
 			setCurrentQuestion(nextQuestion);
@@ -118,7 +118,7 @@ export default function Survey() {
 						<div className='question-section'>
 							<div className='heading'> Customer Survey</div>
 							<div className='question-count'>{currentQuestion + 1}/{questions.length}</div>
-							<div className='question-text'>{currentQuestion + 1}. {questions[currentQuestion].questionText}</div>
+							<div className='question-text'>{questions[currentQuestion].questionNumber}. {questions[currentQuestion].questionText}</div>
 							<div className='answer-section'>
 								{(() => {
 									if (!questions[currentQuestion].answerOptions.length) {

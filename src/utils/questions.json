@@ -1,5 +1,6 @@
 [
     {
+        "questionNumber": "1",
         "questionText": "How satisfied are you with our products?",
         "answerOptions": [
             {
@@ -25,6 +26,7 @@
         ]
     },
     {
+        "questionNumber": "2",
         "questionText": "How fair are the prices compared to similar retailers?",
         "answerOptions": [
             {
@@ -50,6 +52,7 @@
         ]
     },
     {
+        "questionNumber": "3",
         "questionText": "How satisfied are you with the value for money of your purchase?",
         "answerOptions": [
             {
@@ -75,6 +78,7 @@
         ]
     },
     {
+        "questionNumber": "4",
         "questionText": "On a scale of 1-10 how would you recommend us to your friends and family?",
         "answerOptions": [
             {
@@ -96,10 +100,31 @@
             {
                 "answerText": "5",
                 "value": "5"
+            },
+            {
+                "answerText": "6",
+                "value": "6"
+            },
+            {
+                "answerText": "7",
+                "value": "7"
+            },
+            {
+                "answerText": "8",
+                "value": "8"
+            },
+            {
+                "answerText": "9",
+                "value": "9"
+            },
+            {
+                "answerText": "10",
+                "value": "10"
             }
         ]
     },
     {
+        "questionNumber": "5",
         "questionText": "What could we do to improve our service?",
         "answerOptions": []
     }
